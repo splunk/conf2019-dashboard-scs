@@ -3,12 +3,14 @@ import Select from '@splunk/react-ui/Select';
 import styled, { ThemeProvider } from 'styled-components';
 import { themes as reactUIThemes } from '@splunk/react-ui/themes';
 import DashboardCore, {
-    themes as dashboardCoreThemes
+    themes as dashboardCoreThemes,
 } from '@splunk/dashboard-core';
 import CloudViewOnlyPreset, {
-    themes as presetThemes
+    themes as presetThemes,
 } from '@splunk/dashboard-presets/CloudViewOnlyPreset';
 import definition from './definition';
+import authClient from '../../auth';
+import { tenantId } from '../../config/config.json';
 
 const Container = styled.div`
     position: relative;
@@ -25,14 +27,14 @@ class Dashboard extends Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            themeId: 'enterpriseDark'
+            themeId: 'enterpriseDark',
         };
         this.handleThemeChange = this.handleThemeChange.bind(this);
     }
 
     handleThemeChange(e, { value }) {
         this.setState({
-            themeId: value
+            themeId: value,
         });
     }
 
@@ -41,7 +43,7 @@ class Dashboard extends Component {
         const theme = {
             ...presetThemes[themeId],
             ...dashboardCoreThemes[themeId],
-            ...reactUIThemes[themeId]
+            ...reactUIThemes[themeId],
         };
         return (
             <ThemeProvider theme={theme}>
@@ -66,6 +68,10 @@ class Dashboard extends Component {
                         height="calc(100vh - 78px)"
                         definition={definition}
                         preset={CloudViewOnlyPreset}
+                        dataSourceContext={{
+                            tenantId,
+                            authClient,
+                        }}
                     />
                 </Container>
             </ThemeProvider>

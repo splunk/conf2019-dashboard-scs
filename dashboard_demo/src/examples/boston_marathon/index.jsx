@@ -1,10 +1,15 @@
 import React from 'react';
-import layout from '@splunk/react-page';
 import { ThemeProvider } from 'styled-components';
 import { themes as reactUIThemes } from '@splunk/react-ui/themes';
-import DashboardCore, { themes as dashboardCoreThemes } from '@splunk/dashboard-core';
-import EnterprisePreset, { themes as presetThemes } from '@splunk/dashboard-presets/EnterprisePreset';
+import DashboardCore, {
+    themes as dashboardCoreThemes,
+} from '@splunk/dashboard-core';
+import EnterprisePreset, {
+    themes as presetThemes,
+} from '@splunk/dashboard-presets/EnterprisePreset';
 import definition from './definition';
+import authClient from '../../auth';
+import { tenantId } from '../../config/config.json';
 
 const themeKey = 'enterpriseDark';
 const theme = {
@@ -13,18 +18,17 @@ const theme = {
     ...reactUIThemes[themeKey],
 };
 // use DashboardCore to render a simple dashboard
-layout(
+export default () => (
     <ThemeProvider theme={theme}>
         <DashboardCore
             width="100%"
             height="calc(100vh - 78px)"
             definition={definition}
             preset={EnterprisePreset}
+            dataSourceContext={{
+                tenantId,
+                authClient,
+            }}
         />
-    </ThemeProvider>,
-    {
-        pageTitle: 'Boston Marathon Dashboard',
-        hideFooter: true,
-        layout: 'fixed',
-    }
+    </ThemeProvider>
 );
