@@ -1,43 +1,43 @@
 import React from 'react';
-import layout from '@splunk/react-page';
 import { ThemeProvider } from 'styled-components';
 import { themes as reactUIThemes } from '@splunk/react-ui/themes';
 import DashboardCore, {
-    themes as dashboardCoreThemes
+    themes as dashboardCoreThemes,
 } from '@splunk/dashboard-core';
 import CloudViewOnlyPreset, {
-    themes as presetThemes
+    themes as presetThemes,
 } from '@splunk/dashboard-presets/CloudViewOnlyPreset';
 import definition from './definition';
 import Donut from './Donut';
+import authClient from '../../auth';
+import { tenantId } from '../../config/config.json';
 
 const CustomPreset = {
     ...CloudViewOnlyPreset,
     visualizations: {
         ...CloudViewOnlyPreset.visualizations,
-        'viz.donut': Donut
-    }
+        'viz.donut': Donut,
+    },
 };
 
 const themeKey = 'enterpriseDark';
 const theme = {
     ...presetThemes[themeKey],
     ...dashboardCoreThemes[themeKey],
-    ...reactUIThemes[themeKey]
+    ...reactUIThemes[themeKey],
 };
 // use DashboardCore to render a simple dashboard
-layout(
+export default () => (
     <ThemeProvider theme={theme}>
         <DashboardCore
             width="100%"
             height="calc(100vh - 78px)"
             definition={definition}
             preset={CustomPreset}
+            dataSourceContext={{
+                tenantId,
+                authClient,
+            }}
         />
-    </ThemeProvider>,
-    {
-        pageTitle: 'D3 Donut Chart',
-        hideFooter: true,
-        layout: 'fixed'
-    }
+    </ThemeProvider>
 );

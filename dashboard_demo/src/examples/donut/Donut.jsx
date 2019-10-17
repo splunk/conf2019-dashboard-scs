@@ -3,6 +3,8 @@ import * as d3 from 'd3';
 import rd3 from 'react-d3-library';
 import styled from 'styled-components';
 import BaseVisualization from '@splunk/dashboard-visualizations/common/BaseVisualization';
+import authClient from '../../auth';
+import { tenantId } from '../../config/config.json';
 
 const RD3Component = rd3.Component;
 
@@ -35,7 +37,9 @@ export default class Donut extends React.Component {
         // remember encoding
         const { dataSources } = this.props;
         // todo: should use Base Parser. (need fix one issue in parser)
-        const fieldNames = dataSources.primary.options.data.fields.map(f => f.name);
+        const fieldNames = dataSources.primary.options.data.fields.map(
+            f => f.name
+        );
         const donutData = {
             label: dataSources.primary.options.data.columns[0],
             value: dataSources.primary.options.data.columns[1],
@@ -58,7 +62,8 @@ export default class Donut extends React.Component {
         const height = this.props.height - 25;
         const radius = Math.min(width, height) / 2;
 
-        const colorScheme = this.props.options.colorScheme || 'schemeCategory10';
+        const colorScheme =
+            this.props.options.colorScheme || 'schemeCategory10';
         const color = d3.scaleOrdinal(d3[colorScheme]);
 
         const pie = d3
@@ -132,7 +137,13 @@ export default class Donut extends React.Component {
     }
 
     render() {
-        const { width, height, background = 'transparent', title, description } = this.props;
+        const {
+            width,
+            height,
+            background = 'transparent',
+            title,
+            description,
+        } = this.props;
 
         return (
             <Container width={width} height={height} background={background}>
