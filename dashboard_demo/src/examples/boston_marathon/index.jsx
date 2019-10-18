@@ -7,7 +7,7 @@ import DashboardCore, {
 import EnterprisePreset, {
     themes as presetThemes,
 } from '@splunk/dashboard-presets/EnterprisePreset';
-import definition from './definition';
+import definition from './definition.json';
 import authClient from '../../auth';
 import { tenantId } from '../../config/config.json';
 
