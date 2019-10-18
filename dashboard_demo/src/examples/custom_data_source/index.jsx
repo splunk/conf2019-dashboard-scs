@@ -1,7 +1,7 @@
 import React from 'react';
 import DashboardCore from '@splunk/dashboard-core';
 import CloudViewOnlyPreset from '@splunk/dashboard-presets/CloudViewOnlyPreset';
-import definition from './definition';
+import definition from './definition.json';
 import authClient from '../../auth';
 import { tenantId } from '../../config/config.json';
 
