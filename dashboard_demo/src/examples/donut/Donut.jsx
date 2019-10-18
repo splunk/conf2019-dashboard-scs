@@ -133,7 +133,7 @@ const Donut = ({ dataSources, width, height, background = 'transparent', title, 
     useEffect(() => {
         const data = processData(dataSources);
         setD3Data(drawChart({ data, width, height, options }));
-    }, [dataSources]);
+    }, [dataSources, setD3Data]);
 
     return (
         <Container width={width} height={height} background={background}>
