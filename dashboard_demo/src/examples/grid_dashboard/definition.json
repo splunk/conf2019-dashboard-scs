@@ -3,7 +3,7 @@
         "total_count_search": {
             "type": "ds.search",
             "options": {
-                "query": "index=_internal | stats count",
+                "query": "index=_internal | stats count()",
                 "queryParameters": {
                     "earliest": "$time.earliest$",
                     "latest": "$time.latest$"
@@ -13,7 +13,7 @@
         "event_by_component_search": {
             "type": "ds.search",
             "options": {
-                "query": "index=_internal | stats count by component",
+                "query": "index=_internal | stats count() by component",
                 "queryParameters": {
                     "earliest": "$time.earliest$",
                     "latest": "$time.latest$"
@@ -23,7 +23,7 @@
         "timechart_search": {
             "type": "ds.search",
             "options": {
-                "query": "index=_internal | timechart count",
+                "query": "index=_internal | timechart count()",
                 "queryParameters": {
                     "earliest": "$time.earliest$",
                     "latest": "$time.latest$"
