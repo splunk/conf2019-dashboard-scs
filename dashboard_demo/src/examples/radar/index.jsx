@@ -8,7 +8,7 @@ import CloudViewOnlyPreset, {
     themes as presetThemes,
 } from '@splunk/dashboard-presets/CloudViewOnlyPreset';
 import Radar from './Radar';
-import definition from './definition';
+import definition from './definition.json';
 import authClient from '../../auth';
 import { tenantId } from '../../config/config.json';
 
