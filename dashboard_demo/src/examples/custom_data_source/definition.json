@@ -3,7 +3,7 @@
         "total_count_search": {
             "type": "ds.search",
             "options": {
-                "query": "index=_internal | stats count",
+                "query": "index=_internal | stats count()",
                 "queryParameters": { "earliest": "-15m@m", "latest": "now" }
             }
         }

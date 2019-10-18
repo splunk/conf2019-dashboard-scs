@@ -2,27 +2,27 @@
     "dataSources": {
         "total_count_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal | stats count" }
+            "options": { "query": "index=_internal | stats count()" }
         },
         "error_count_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal error | stats count" }
+            "options": { "query": "index=_internal error | stats count()" }
         },
         "info_count_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal info | stats count" }
+            "options": { "query": "index=_internal info | stats count()" }
         },
         "warning_count_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal warning| stats count" }
+            "options": { "query": "index=_internal warning| stats count()" }
         },
         "event_by_component_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal | stats count by component" }
+            "options": { "query": "index=_internal | stats count() by component" }
         },
         "timechart_search": {
             "type": "ds.search",
-            "options": { "query": "index=_internal | timechart count" }
+            "options": { "query": "index=_internal | timechart count()" }
         }
     },
     "inputs": {},
