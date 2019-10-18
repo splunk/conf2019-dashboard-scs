@@ -808,7 +808,7 @@
         "viz_q4YzAPyo": {
             "type": "viz.img",
             "options": {
-                "src": "https://5da3ef012432748db7171309--conf2019demos.netlify.com/bostonmarathon.png",
+                "src": "https://raw.githubusercontent.com/splunk/dashboard-conf19-examples/master/resources/appserver/static/boston_marathon/marathon_map.png",
                 "preserveAspectRatio": true
             }
         }
