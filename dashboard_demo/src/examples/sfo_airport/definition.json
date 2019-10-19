@@ -428,7 +428,7 @@
 				"w": 900,
 				"x": 350,
 				"y": 110,
-				"src": "https://5da3a25dfc22937e4a27625c--conf2019demos.netlify.com/sfo.svg"
+				"src": "https://raw.githubusercontent.com/splunk/dashboard-conf19-examples/master/resources/appserver/static/sfo_airport/sfo_airport_background.svg?sanitize=true"
 			}
 		},
 		"structure": [
