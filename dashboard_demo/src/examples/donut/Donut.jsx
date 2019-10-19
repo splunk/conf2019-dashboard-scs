@@ -91,38 +91,38 @@ const drawChart = ({ data = null, width, height: initialHeight, options }) => {
         .attr('d', arc);
 
     // note: for demo purpose
-    // arcs.append('text')
-    //     .attr('transform', d => {
-    //         const [x, y] = arc.centroid(d);
-    //         return `translate(${x - 8},${y})`;
-    //     })
-    //     .style('font-size', 8)
-    //     .text(d => d.value);
+    arcs.append('text')
+        .attr('transform', d => {
+            const [x, y] = arc.centroid(d);
+            return `translate(${x - 8},${y})`;
+        })
+        .style('font-size', 8)
+        .text(d => d.value);
 
-    // const { label } = data;
-    // const legend = svg
-    //     .selectAll('.legend')
-    //     .data(label)
-    //     .enter()
-    //     .append('g')
-    //     .attr('class', 'legend');
+    const { label } = data;
+    const legend = svg
+        .selectAll('.legend')
+        .data(label)
+        .enter()
+        .append('g')
+        .attr('class', 'legend');
 
-    // legend
-    //     .append('rect')
-    //     .attr('width', 10)
-    //     .attr('height', 8)
-    //     .attr('x', radius)
-    //     .attr('y', (d, i) => i * 10)
-    //     .attr('fill', (d, i) => color(i));
+    legend
+        .append('rect')
+        .attr('width', 10)
+        .attr('height', 8)
+        .attr('x', radius)
+        .attr('y', (d, i) => i * 10)
+        .attr('fill', (d, i) => color(i));
 
-    // legend
-    //     .append('text')
-    //     .attr('fill', 'white')
-    //     .style('font-size', 10)
-    //     .attr('x', radius + 12)
-    //     .attr('y', (d, i) => i * 10)
-    //     .attr('dy', '0.8em')
-    //     .text(d => d);
+    legend
+        .append('text')
+        .attr('fill', 'white')
+        .style('font-size', 10)
+        .attr('x', radius + 12)
+        .attr('y', (d, i) => i * 10)
+        .attr('dy', '0.8em')
+        .text(d => d);
 
     return node;
 };
