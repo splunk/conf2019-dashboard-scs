@@ -14,6 +14,17 @@ import GridDashboard from './examples/grid_dashboard';
 import Radar from './examples/radar';
 import SFOAirport from './examples/sfo_airport';
 import Visualzations from './examples/visualizations';
+import BubbleDefault from './examples/bubble_default';
+import PieDefault from './examples/pie_default';
+import ColumnDefault from './examples/column_default';
+import ScatterDefault from './examples/scatter_default';
+import ColumnStack from './examples/column_stack';
+import AreaNull from './examples/area_null';
+import AreaStack from './examples/area_stack';
+import ElbLogsOverview from './examples/elb_logs_overview';
+import LineNull from './examples/line_null';
+import USChoropleth from './examples/us_choropleth';
+import EmergencyCare from './examples/emergency_care';
 
 const Container = styled.div`
     margin: 20px;
@@ -32,6 +43,17 @@ const examples = {
     Radar,
     SFOAirport,
     Visualzations,
+    BubbleDefault,
+    PieDefault,
+    ColumnDefault,
+    ScatterDefault,
+    ColumnStack,
+    AreaNull,
+    AreaStack,
+    ElbLogsOverview,
+    LineNull,
+    USChoropleth,
+    EmergencyCare,
 };
 
 const Dashboard = () => {
