@@ -1,0 +1,51 @@
+{
+    "title": "Home Monitoring",
+    "inputs": {},
+    "layout": {
+        "type": "absolute",
+        "options": { "height": 300, "backgroundColor": "transparent" },
+        "structure": [
+            {
+                "item": "viz_M1jUiwoN",
+                "type": "block",
+                "position": { "h": 300, "w": 300, "x": 0, "y": 0 }
+            },
+            {
+                "item": "viz_WZmRrziT",
+                "type": "block",
+                "position": { "h": 300, "w": 800, "x": 320, "y": 0 }
+            }
+        ]
+    },
+    "dataSources": {
+        "ds_7Vnkb5K4": {
+            "name": "Voltage",
+            "type": "ds.search",
+            "options": {
+                "query": "| from electricity_metrics where metric_name=\"voltage\" select avg(_value) as voltage"
+            }
+        },
+        "ds_loF2FAjZ": {
+            "name": "Energy Production & Consumption",
+            "type": "ds.search",
+            "options": {
+                "query": "| from electricity_metrics where metric_name=\"energy\" groupby channel_name, metric_unit, span(_time, 5m) SELECT _time, sum(_value) as energy, metric_unit, channel_name orderby energy DESC | eval energy_w_unit=(energy + \" \" + metric_unit) | timechart sum(energy_w_unit) by channel_name"
+            }
+        }
+    },
+    "description": "",
+    "visualizations": {
+        "viz_M1jUiwoN": {
+            "type": "viz.singlevalueradial",
+            "options": {},
+            "dataSources": { "primary": "ds_7Vnkb5K4" }
+        },
+        "viz_WZmRrziT": {
+            "type": "viz.line",
+            "title": "Energy Production & Consumption",
+            "options": {},
+            "dataSources": { "primary": "ds_loF2FAjZ" },
+            "description": "24hr period"
+        }
+    }
+}

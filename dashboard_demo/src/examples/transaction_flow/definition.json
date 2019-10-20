@@ -1,0 +1,1310 @@
+{
+	"dataSources": {
+		"testData": {
+			"name": "search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"4"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_KgkneqP8_testData": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"227 USD"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_QPQnAGOI_testData": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"4"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_fadPsyM5_testData": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"96"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_70cCl7FI_ds_KgkneqP8_testData": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"221 USD"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_JeItQDG2_ds_fadPsyM5_testData": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"96"
+						],
+						[
+							"100"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_BdAO6W59_ds_JeItQDG2_ds_fadPsyM5_testData": {
+			"name": "Copy of Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"100"
+						],
+						[
+							"100"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_yc4G6SYw_ds_JeItQDG2_ds_fadPsyM5_testData": {
+			"name": "Copy of Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"100"
+						],
+						[
+							"100"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_yLfJxODi_ds_BdAO6W59_ds_JeItQDG2_ds_fadPsyM5_testData": {
+			"name": "Copy of Copy of Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"100"
+						],
+						[
+							"100"
+						]
+					]
+				},
+				"meta": {}
+			}
+		}
+	},
+	"inputs": {
+		"globalTime": {
+			"type": "input.timerange",
+			"options": {
+				"token": "TimeRange",
+				"defaultValue": "-60m, now"
+			}
+		}
+	},
+	"layout": {
+		"type": "absolute",
+		"options": {
+			"width": 1920,
+			"height": 1200,
+			"backgroundColor": "#2B2C33",
+			"backgroundImage": {
+				"x": 0,
+				"y": 0,
+				"src": "https://bg-xqpftwmdys.now.sh/transction_flow.png",
+				"sizeType": "auto"
+			}
+		},
+		"structure": [
+			{
+				"item": "viz_vT751FFS",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 40,
+					"y": 210
+				}
+			},
+			{
+				"item": "viz_m8rB9fS2",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 180,
+					"x": 30,
+					"y": 770
+				}
+			},
+			{
+				"item": "viz_vHls9uTJ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 180,
+					"x": 730,
+					"y": 80
+				}
+			},
+			{
+				"item": "viz_wd0zigDG",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 300,
+					"y": 260
+				}
+			},
+			{
+				"item": "viz_cvODXzMu",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 530,
+					"y": 260
+				}
+			},
+			{
+				"item": "viz_E4UUL2kW",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 560,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_6dKARznF",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 320,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_ED2OkZ3B",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 180,
+					"x": 30,
+					"y": 140
+				}
+			},
+			{
+				"item": "viz_Ep5AHIXP",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 180,
+					"x": 790,
+					"y": 890
+				}
+			},
+			{
+				"item": "viz_jI2cTRoX",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 230,
+					"y": 486
+				}
+			},
+			{
+				"item": "viz_Y7elI7HD",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 40,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_6BKTBEkV",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 40,
+					"y": 840
+				}
+			},
+			{
+				"item": "viz_j5LrW8Xm",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 40,
+					"y": 950
+				}
+			},
+			{
+				"item": "viz_mLTNF1YG",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 240,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_TGevXJyB",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 720,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_kQUdfDB8",
+				"type": "block",
+				"position": {
+					"h": 130,
+					"w": 240,
+					"x": 990,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_fSddCxcY",
+				"type": "block",
+				"position": {
+					"h": 130,
+					"w": 240,
+					"x": 730,
+					"y": 140
+				}
+			},
+			{
+				"item": "viz_leG0lp75",
+				"type": "block",
+				"position": {
+					"h": 95,
+					"w": 180,
+					"x": 800,
+					"y": 950
+				}
+			},
+			{
+				"item": "viz_vAPYrYFW",
+				"type": "block",
+				"position": {
+					"h": 82,
+					"w": 84,
+					"x": 330,
+					"y": 310
+				}
+			},
+			{
+				"item": "viz_5oRVV8Rt",
+				"type": "block",
+				"position": {
+					"h": 82,
+					"w": 84,
+					"x": 345,
+					"y": 960
+				}
+			},
+			{
+				"item": "viz_qChaFrtV",
+				"type": "block",
+				"position": {
+					"h": 82,
+					"w": 84,
+					"x": 580,
+					"y": 960
+				}
+			},
+			{
+				"item": "viz_sjD3yQ6A",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 50,
+					"y": 210
+				}
+			},
+			{
+				"item": "viz_qd9oHwwh",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 50,
+					"x": 50,
+					"y": 250
+				}
+			},
+			{
+				"item": "viz_A2zi0btM",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 150,
+					"x": 50,
+					"y": 360
+				}
+			},
+			{
+				"item": "viz_oCxz1Xvy",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 50,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_dH1oFoO8",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1010,
+					"y": 560
+				}
+			},
+			{
+				"item": "viz_6c3AWHxs",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 750,
+					"y": 150
+				}
+			},
+			{
+				"item": "viz_NmT2Wjyp",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 730,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_VWJ2D4Bv",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 50,
+					"y": 840
+				}
+			},
+			{
+				"item": "viz_jhTeKXxP",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 50,
+					"y": 960
+				}
+			},
+			{
+				"item": "viz_AlhAFc6S",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 90,
+					"x": 750,
+					"y": 190
+				}
+			},
+			{
+				"item": "viz_ktSCEIME",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 740,
+					"y": 590
+				}
+			},
+			{
+				"item": "viz_BlZlB3HY",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 1010,
+					"y": 600
+				}
+			},
+			{
+				"item": "viz_hmJCpmA4",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 820,
+					"y": 990
+				}
+			},
+			{
+				"item": "viz_Mgqa7LMO",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 810,
+					"y": 950
+				}
+			},
+			{
+				"item": "viz_gfzJKP29",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 150,
+					"x": 50,
+					"y": 990
+				}
+			},
+			{
+				"item": "viz_d9xEkJqp",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 50,
+					"x": 50,
+					"y": 880
+				}
+			},
+			{
+				"item": "viz_9NlPI00O",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 250,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_1GrI9CLs",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 260,
+					"y": 585
+				}
+			},
+			{
+				"item": "viz_vEAsBDaR",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 500,
+					"y": 495
+				}
+			},
+			{
+				"item": "viz_GhOSgOPt",
+				"type": "block",
+				"position": {
+					"h": 45,
+					"w": 180,
+					"x": 710,
+					"y": 490
+				}
+			},
+			{
+				"item": "viz_cBFpoSoo",
+				"type": "block",
+				"position": {
+					"h": 45,
+					"w": 180,
+					"x": 970,
+					"y": 490
+				}
+			},
+			{
+				"item": "viz_JI1uXxdg",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 140,
+					"x": 1030,
+					"y": 130
+				}
+			},
+			{
+				"item": "viz_jdcMfUbP",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 1030,
+					"y": 220
+				}
+			},
+			{
+				"item": "viz_AGtCECJw",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 1030,
+					"y": 200
+				}
+			},
+			{
+				"item": "viz_Pe8vSV0o",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 1290,
+					"y": 620
+				}
+			},
+			{
+				"item": "viz_NOcPqsjz",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 140,
+					"x": 1290,
+					"y": 540
+				}
+			},
+			{
+				"item": "viz_mhUzIGTZ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 150,
+					"x": 1290,
+					"y": 600
+				}
+			},
+			{
+				"item": "viz_hyRvFrsx",
+				"type": "block",
+				"position": {
+					"h": 36,
+					"w": 36,
+					"x": 990,
+					"y": 220
+				}
+			},
+			{
+				"item": "viz_EpWffiMe",
+				"type": "block",
+				"position": {
+					"h": 36,
+					"w": 36,
+					"x": 1250,
+					"y": 620
+				}
+			},
+			{
+				"item": "viz_ssEndRcx",
+				"type": "block",
+				"position": {
+					"h": 36,
+					"w": 36,
+					"x": 990,
+					"y": 140
+				}
+			},
+			{
+				"item": "viz_Q8oeTTm5",
+				"type": "block",
+				"position": {
+					"h": 36,
+					"w": 36,
+					"x": 1250,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_85iXG6i1",
+				"type": "block",
+				"position": {
+					"h": 80,
+					"w": 70,
+					"x": 590,
+					"y": 960
+				}
+			},
+			{
+				"item": "viz_tdnMm1uS",
+				"type": "block",
+				"position": {
+					"h": 80,
+					"w": 70,
+					"x": 340,
+					"y": 300
+				}
+			},
+			{
+				"item": "viz_QN234u7C",
+				"type": "block",
+				"position": {
+					"h": 80,
+					"w": 70,
+					"x": 350,
+					"y": 960
+				}
+			},
+			{
+				"item": "viz_ZNdqXIWi",
+				"type": "block",
+				"position": {
+					"h": 70,
+					"w": 70,
+					"x": 560,
+					"y": 310
+				}
+			},
+			{
+				"item": "viz_Qu30RdUm",
+				"type": "block",
+				"position": {
+					"h": 79,
+					"w": 70,
+					"x": 540,
+					"y": 550
+				}
+			}
+		],
+		"globalInputs": [
+			"globalTime"
+		]
+	},
+	"title": "Demo - ITSI Transaction Flow",
+	"description": "",
+	"visualizations": {
+		"viz_1GrI9CLs": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_yc4G6SYw_ds_JeItQDG2_ds_fadPsyM5_testData"
+			}
+		},
+		"viz_5oRVV8Rt": {
+			"type": "viz.img",
+			"options": {
+				"src": "splunk-enterprise-kvstore://5d9e0ee2ab0609172f014823",
+				"preserveAspectRatio": true
+			}
+		},
+		"viz_6BKTBEkV": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_6c3AWHxs": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "HEALTH",
+				"fontSize": 16
+			}
+		},
+		"viz_6dKARznF": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Data Goes Out",
+				"fontSize": 18
+			}
+		},
+		"viz_85iXG6i1": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunkx://ck1vjbqxd02d50i00pe1upmtu",
+				"color": "#dc4e41",
+				"showValue": false
+			}
+		},
+		"viz_9NlPI00O": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "CHECKOUT",
+				"fontSize": 16
+			}
+		},
+		"viz_A2zi0btM": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_KgkneqP8_testData"
+			}
+		},
+		"viz_AGtCECJw": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Future Health",
+				"fontSize": 16
+			}
+		},
+		"viz_AlhAFc6S": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_fadPsyM5_testData"
+			}
+		},
+		"viz_BlZlB3HY": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_BdAO6W59_ds_JeItQDG2_ds_fadPsyM5_testData"
+			}
+		},
+		"viz_E4UUL2kW": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Server Hardware",
+				"fontSize": 18
+			}
+		},
+		"viz_ED2OkZ3B": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Website"
+			}
+		},
+		"viz_Ep5AHIXP": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Mobile Tier"
+			}
+		},
+		"viz_EpWffiMe": {
+			"type": "viz.ellipse",
+			"options": {
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_GhOSgOPt": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Middleware"
+			}
+		},
+		"viz_JI1uXxdg": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Average Event Severity",
+				"fontSize": 16
+			}
+		},
+		"viz_Mgqa7LMO": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "HEALTH",
+				"fontSize": 16
+			}
+		},
+		"viz_NOcPqsjz": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Average Event Severity",
+				"fontSize": 16
+			}
+		},
+		"viz_NmT2Wjyp": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "HEALTH",
+				"fontSize": 16
+			}
+		},
+		"viz_Pe8vSV0o": {
+			"type": "viz.text",
+			"options": {
+				"color": "#C7CAD0",
+				"content": "(predicted health in 20-30 min)",
+				"fontSize": 14
+			}
+		},
+		"viz_Q8oeTTm5": {
+			"type": "viz.ellipse",
+			"options": {
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_QN234u7C": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunkx://ck1vjj4nx02gc0i00k02rwq46",
+				"color": "#00d9ff",
+				"showValue": false
+			}
+		},
+		"viz_Qu30RdUm": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunkx://ck1vjbqxd02d50i00pe1upmtu",
+				"color": "#5a4575",
+				"showValue": false
+			}
+		},
+		"viz_TGevXJyB": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_VWJ2D4Bv": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "CHECKOUT",
+				"fontSize": 16
+			}
+		},
+		"viz_Y7elI7HD": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_ZNdqXIWi": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunkx://ck1vjbqxd02d50i00pe1upmtu",
+				"color": "#5a4575",
+				"showValue": false
+			}
+		},
+		"viz_cBFpoSoo": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Database"
+			}
+		},
+		"viz_cvODXzMu": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Server Hardware",
+				"fontSize": 18
+			}
+		},
+		"viz_d9xEkJqp": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_QPQnAGOI_testData"
+			}
+		},
+		"viz_dH1oFoO8": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "HEALTH",
+				"fontSize": 16
+			}
+		},
+		"viz_fSddCxcY": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_gfzJKP29": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_70cCl7FI_ds_KgkneqP8_testData"
+			}
+		},
+		"viz_hmJCpmA4": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_yLfJxODi_ds_BdAO6W59_ds_JeItQDG2_ds_fadPsyM5_testData"
+			}
+		},
+		"viz_hyRvFrsx": {
+			"type": "viz.ellipse",
+			"options": {
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_j5LrW8Xm": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_jI2cTRoX": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "External Api",
+				"fontSize": 24
+			}
+		},
+		"viz_jdcMfUbP": {
+			"type": "viz.text",
+			"options": {
+				"color": "#C7CAD0",
+				"content": "(predicted health in 20-30 min)",
+				"fontSize": 14
+			}
+		},
+		"viz_jhTeKXxP": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "REVENUE",
+				"fontSize": 16
+			}
+		},
+		"viz_kQUdfDB8": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_ktSCEIME": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "ds_JeItQDG2_ds_fadPsyM5_testData"
+			}
+		},
+		"viz_leG0lp75": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_m8rB9fS2": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Mobile"
+			}
+		},
+		"viz_mLTNF1YG": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_mhUzIGTZ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Future Health",
+				"fontSize": 16
+			}
+		},
+		"viz_oCxz1Xvy": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "REVENUE",
+				"fontSize": 16
+			}
+		},
+		"viz_qChaFrtV": {
+			"type": "viz.img",
+			"options": {
+				"src": "splunk-enterprise-kvstore://5d9e0f3cab0609172f014824",
+				"preserveAspectRatio": true
+			}
+		},
+		"viz_qd9oHwwh": {
+			"type": "viz.singlevalue",
+			"title": "",
+			"options": {
+				"backgroundColor": "#8CC975",
+				"showTrendIndicator": false
+			},
+			"dataSources": {
+				"primary": "testData"
+			}
+		},
+		"viz_sjD3yQ6A": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "CHECKOUT",
+				"fontSize": 16
+			}
+		},
+		"viz_ssEndRcx": {
+			"type": "viz.ellipse",
+			"options": {
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_tdnMm1uS": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunkx://ck1vjj4nx02gc0i00k02rwq46",
+				"color": "#00d9ff",
+				"showValue": false
+			}
+		},
+		"viz_vAPYrYFW": {
+			"type": "viz.img",
+			"options": {
+				"src": "splunk-enterprise-kvstore://5d9e0ee2ab0609172f014823",
+				"preserveAspectRatio": true
+			}
+		},
+		"viz_vEAsBDaR": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Data goes out",
+				"fontSize": 18
+			}
+		},
+		"viz_vHls9uTJ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Web Tier"
+			}
+		},
+		"viz_vT751FFS": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#8CC975",
+				"stroke": "#8CC975"
+			}
+		},
+		"viz_wd0zigDG": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Data Goes Out",
+				"fontSize": 18
+			}
+		}
+	}
+}
