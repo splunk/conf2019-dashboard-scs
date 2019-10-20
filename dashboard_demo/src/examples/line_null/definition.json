@@ -1,0 +1,115 @@
+{
+    "title": "Chart - Line Null Value",
+    "inputs": {},
+    "layout": {
+        "type": "absolute",
+        "options": { "width": 1290, "height": 720 },
+        "structure": [
+            {
+                "item": "viz_PlN4UnyP",
+                "type": "block",
+                "position": { "h": 140, "w": 510, "x": 0, "y": 490 }
+            },
+            {
+                "item": "viz_JO7fmFG4",
+                "type": "block",
+                "position": { "h": 50, "w": 300, "x": 10, "y": 490 }
+            },
+            {
+                "item": "viz_Ikple2LO",
+                "type": "block",
+                "position": { "h": 90, "w": 490, "x": 10, "y": 530 }
+            },
+            {
+                "item": "viz_G7MmlpGO",
+                "type": "block",
+                "position": { "h": 460, "w": 410, "x": 440, "y": 0 }
+            },
+            {
+                "item": "viz_TLlmPxp4",
+                "type": "block",
+                "position": { "h": 460, "w": 430, "x": 860, "y": 0 }
+            },
+            {
+                "item": "viz_DsCPKhQQ",
+                "type": "block",
+                "position": { "h": 460, "w": 430, "x": 0, "y": 0 }
+            },
+            {
+                "item": "viz_S9W4uns3",
+                "type": "block",
+                "position": { "h": 80, "w": 460, "x": 20, "y": 530 }
+            }
+        ]
+    },
+    "dataSources": {
+        "ds_SM3zw2qr": {
+            "name": "Search_1",
+            "type": "ds.search",
+            "options": {
+                "query": "from index:sample_aws_s3_elb_logs | search backend_status_code=500| timechart sum(backend_processing_time) by elb_status_code",
+                "queryParameters": {
+                    "latest": "2019-10-08T05:00:00.000",
+                    "earliest": "2019-10-07T11:00:00.000"
+                }
+            }
+        }
+    },
+    "description": "",
+    "visualizations": {
+        "viz_DsCPKhQQ": {
+            "type": "viz.line",
+            "title": "Connect",
+            "options": {
+                "axisTitleX.text": "time",
+                "axisTitleY.text": "Processing time (ms)",
+                "chart.nullValueMode": "connect"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        },
+        "viz_G7MmlpGO": {
+            "type": "viz.line",
+            "title": "Gaps",
+            "options": {
+                "axisTitleX.text": "time",
+                "axisTitleY.text": "Processing time (ms)"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        },
+        "viz_Ikple2LO": {
+            "type": "viz.rectangle",
+            "options": {
+                "rx": 2,
+                "ry": 2,
+                "fill": "transparent",
+                "stroke": "#43454A"
+            }
+        },
+        "viz_JO7fmFG4": {
+            "type": "viz.text",
+            "options": { "content": "Search", "fontSize": 15 }
+        },
+        "viz_PlN4UnyP": {
+            "type": "viz.rectangle",
+            "options": { "fill": "#222628", "stroke": "#222628" }
+        },
+        "viz_S9W4uns3": {
+            "type": "viz.text",
+            "options": {
+                "color": "#ffffff",
+                "content": "from index:sample_aws_s3_elb_logs \n | search backend_status_code=500 \n | timechart sum(backend_processing_time) by elb_status_code",
+                "fontSize": 15
+            }
+        },
+        "viz_TLlmPxp4": {
+            "type": "viz.line",
+            "title": "Zero",
+            "options": {
+                "axisTitleX.text": "time",
+                "axisTitleY.text": "Processing time (ms)",
+                "chart.nullValueMode": "zero"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        }
+    }
+}

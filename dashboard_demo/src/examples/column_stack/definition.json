@@ -1,0 +1,115 @@
+{
+    "title": "Chart - Column Stack Mode",
+    "inputs": {},
+    "layout": {
+        "type": "absolute",
+        "options": { "width": 1290, "height": 720 },
+        "structure": [
+            {
+                "item": "viz_PlN4UnyP",
+                "type": "block",
+                "position": { "h": 130, "w": 440, "x": 0, "y": 490 }
+            },
+            {
+                "item": "viz_S9W4uns3",
+                "type": "block",
+                "position": { "h": 80, "w": 410, "x": 30, "y": 520 }
+            },
+            {
+                "item": "viz_JO7fmFG4",
+                "type": "block",
+                "position": { "h": 50, "w": 300, "x": 10, "y": 480 }
+            },
+            {
+                "item": "viz_G7MmlpGO",
+                "type": "block",
+                "position": { "h": 460, "w": 430, "x": 0, "y": 0 }
+            },
+            {
+                "item": "viz_TLlmPxp4",
+                "type": "block",
+                "position": { "h": 460, "w": 410, "x": 440, "y": 0 }
+            },
+            {
+                "item": "viz_DsCPKhQQ",
+                "type": "block",
+                "position": { "h": 460, "w": 430, "x": 860, "y": 0 }
+            },
+            {
+                "item": "viz_BWmN9dMb",
+                "type": "block",
+                "position": { "h": 90, "w": 410, "x": 20, "y": 520 }
+            }
+        ]
+    },
+    "dataSources": {
+        "ds_SM3zw2qr": {
+            "name": "Search_1",
+            "type": "ds.search",
+            "options": {
+                "query": "from index:sample_aws_s3_elb_logs | search backend_status_code>=400 | timechart span=1h count() by backend_status_code ",
+                "queryParameters": {
+                    "latest": "2019-10-08T05:00:00.000",
+                    "earliest": "2019-10-07T11:00:00.000"
+                }
+            }
+        }
+    },
+    "description": "",
+    "visualizations": {
+        "viz_BWmN9dMb": {
+            "type": "viz.rectangle",
+            "options": {
+                "rx": 2,
+                "ry": 2,
+                "fill": "transparent",
+                "stroke": "#43454A"
+            }
+        },
+        "viz_DsCPKhQQ": {
+            "type": "viz.column",
+            "title": "Stacked 100%",
+            "options": {
+                "axisTitleX.text": "Time",
+                "axisTitleY.text": "Error count",
+                "chart.stackMode": "stacked100"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        },
+        "viz_G7MmlpGO": {
+            "type": "viz.column",
+            "title": "Default",
+            "options": {
+                "axisTitleX.text": "Time",
+                "axisTitleY.text": "Error count"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        },
+        "viz_JO7fmFG4": {
+            "type": "viz.text",
+            "options": { "content": "Search", "fontSize": 15 }
+        },
+        "viz_PlN4UnyP": {
+            "type": "viz.rectangle",
+            "options": { "fill": "#212529", "stroke": "#212529" }
+        },
+        "viz_S9W4uns3": {
+            "type": "viz.text",
+            "options": {
+                "color": "#ffffff",
+                "content": "from index:sample_aws_s3_elb_logs \n | search backend_status_code>=400 \n | timechart span=1h count() by backend_status_code ",
+                "fontSize": 15
+            }
+        },
+        "viz_TLlmPxp4": {
+            "type": "viz.column",
+            "title": "Stacked",
+            "options": {
+                "axisTitleX.text": "Time",
+                "axisTitleY.text": "Error count",
+                "chart.stackMode": "stacked"
+            },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        }
+    }
+}
