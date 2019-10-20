@@ -1,0 +1,2530 @@
+{
+	"dataSources": {
+		"MTTR": {
+			"name": "MTTR",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"65"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"sev1": {
+			"name": "sev1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"15"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"Revenue": {
+			"name": "Revenue",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"87905"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search1": {
+			"name": "search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"89"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search2": {
+			"name": "search2",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"87"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search3": {
+			"name": "search3",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"3.3"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search4": {
+			"name": "search4",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search5": {
+			"name": "search5",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search6": {
+			"name": "search6",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search7": {
+			"name": "search7",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search16": {
+			"name": "search16",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"search17": {
+			"name": "search17",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"Checkouts": {
+			"name": "Checkouts",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"477"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"javascript": {
+			"name": "javascript",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"3"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ResponseTime": {
+			"name": "ResponseTime",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"284"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"EstimatedCost": {
+			"name": "EstimatedCost",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"11792"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"InstanceHours": {
+			"name": "InstanceHours",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"5323"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"TotalInstances": {
+			"name": "TotalInstances",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"211"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_F2p5uqME_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"89"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_GwuJUJjK_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"89"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_IKkLB7ZU_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_OO5fTLkC_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_UZrvaQKi_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_UgFbT8qE_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_qZ4RiJQr_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"89"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_xnawtjFq_search1": {
+			"name": "Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"92"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_NmgquXSU_Checkouts": {
+			"name": "Copy of Checkouts",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"477"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_SNTqSzsf_Checkouts": {
+			"name": "Copy of Checkouts",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"477"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_x8iRGqTJ_InstanceHours": {
+			"name": "Copy of InstanceHours",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"5323"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_03CNbuvy_ds_IKkLB7ZU_search1": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_9OocU1FB_ds_UZrvaQKi_search1": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_LJ7clkru_ds_UgFbT8qE_search1": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_YnQNaYxY_ds_UZrvaQKi_search1": {
+			"name": "Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_U1qsaFeF_ds_SNTqSzsf_Checkouts": {
+			"name": "Copy of Copy of Checkouts",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"477"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_jtiMxlaJ_ds_SNTqSzsf_Checkouts": {
+			"name": "Copy of Copy of Checkouts",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"477"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_6M3G0fB0_ds_YnQNaYxY_ds_UZrvaQKi_search1": {
+			"name": "Copy of Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		},
+		"ds_Z78RGoA8_ds_03CNbuvy_ds_IKkLB7ZU_search1": {
+			"name": "Copy of Copy of Copy of search1",
+			"type": "ds.test",
+			"options": {
+				"data": {
+					"fields": [
+						{
+							"name": "foo"
+						},
+						{
+							"name": "bar"
+						}
+					],
+					"columns": [
+						[
+							"77"
+						],
+						[
+							"1"
+						]
+					]
+				},
+				"meta": {}
+			}
+		}
+	},
+	"inputs": {
+		"globalTime": {
+			"type": "input.timerange",
+			"options": {
+				"token": "TimeRange",
+				"defaultValue": "-60m, now"
+			}
+		}
+	},
+	"layout": {
+		"type": "absolute",
+		"options": {
+			"width": 1920,
+			"height": 1080,
+			"backgroundColor": "#2B2C33",
+			"backgroundImage": {
+				"x": 0,
+				"y": 0,
+				"src": "https://img2.afishkin.now.sh/DataImageBase.png",
+				"sizeType": "contain"
+			}
+		},
+		"structure": [
+			{
+				"item": "viz_LYvVGipn",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 90,
+					"x": 20,
+					"y": 390
+				}
+			},
+			{
+				"item": "viz_TpR2wVcZ",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 70,
+					"x": 30,
+					"y": 410
+				}
+			},
+			{
+				"item": "viz_x5uaIdzL",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 20,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_9wLdHM0D",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 370,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_qCEJ6zjX",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 560,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_urcgCEvT",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1270,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_0gqnAGm9",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 840,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_uql35a17",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1050,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_CMOGRxSQ",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1270,
+					"y": 590
+				}
+			},
+			{
+				"item": "viz_Teh4VKKy",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1050,
+					"y": 590
+				}
+			},
+			{
+				"item": "viz_HSTQ7VVI",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 840,
+					"y": 590
+				}
+			},
+			{
+				"item": "viz_HBM5PYT1",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 840,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_ZIRkZY6g",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1050,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_xr7flyYl",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 560,
+					"y": 530
+				}
+			},
+			{
+				"item": "viz_9PYXwb2q",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 20,
+					"y": 870
+				}
+			},
+			{
+				"item": "viz_8qwFiyx4",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 390,
+					"y": 40
+				}
+			},
+			{
+				"item": "viz_Xk8BrIRX",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 750,
+					"y": 40
+				}
+			},
+			{
+				"item": "viz_GVC31xlB",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 190,
+					"x": 1110,
+					"y": 40
+				}
+			},
+			{
+				"item": "viz_105ZLlWS",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 20,
+					"y": 510
+				}
+			},
+			{
+				"item": "viz_c2nn5xUr",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 20,
+					"y": 830
+				}
+			},
+			{
+				"item": "viz_9iDIaxh6",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 160,
+					"x": 1110,
+					"y": 80
+				}
+			},
+			{
+				"item": "viz_a38wEm3q",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 740,
+					"y": 80
+				}
+			},
+			{
+				"item": "viz_t9V6t1K8",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 170,
+					"x": 380,
+					"y": 80
+				}
+			},
+			{
+				"item": "viz_Tjb7pOyk",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 60,
+					"y": 170
+				}
+			},
+			{
+				"item": "viz_2WiDN7Zw",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 50,
+					"x": 10,
+					"y": 180
+				}
+			},
+			{
+				"item": "viz_kdGnGZnQ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 370,
+					"y": 680
+				}
+			},
+			{
+				"item": "viz_ZgGawUEN",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 370,
+					"y": 870
+				}
+			},
+			{
+				"item": "viz_7UHq3naH",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 20,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_1ZF2UAxR",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 30,
+					"y": 570
+				}
+			},
+			{
+				"item": "viz_M6oNJ4Ev",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 90,
+					"x": 20,
+					"y": 650
+				}
+			},
+			{
+				"item": "viz_4kUIgUBQ",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 70,
+					"x": 30,
+					"y": 670
+				}
+			},
+			{
+				"item": "viz_MrtaluGJ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 30,
+					"y": 640
+				}
+			},
+			{
+				"item": "viz_lpFewpFs",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 30,
+					"y": 890
+				}
+			},
+			{
+				"item": "viz_4f5iKLwI",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 370,
+					"y": 530
+				}
+			},
+			{
+				"item": "viz_v1JBmHSX",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 370,
+					"y": 490
+				}
+			},
+			{
+				"item": "viz_WlMunGoW",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 385,
+					"y": 550
+				}
+			},
+			{
+				"item": "viz_ytns7TFJ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 570,
+					"y": 525
+				}
+			},
+			{
+				"item": "viz_ku3I0rLV",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 570,
+					"y": 555
+				}
+			},
+			{
+				"item": "viz_kJQUxnuf",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 370,
+					"y": 720
+				}
+			},
+			{
+				"item": "viz_oUHxbtvB",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 380,
+					"y": 740
+				}
+			},
+			{
+				"item": "viz_PJCNJ12d",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 380,
+					"y": 715
+				}
+			},
+			{
+				"item": "viz_dBGiERZi",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 560,
+					"y": 720
+				}
+			},
+			{
+				"item": "viz_poJwaOgW",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 570,
+					"y": 740
+				}
+			},
+			{
+				"item": "viz_w8E6rylt",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 370,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_SHRoiJG2",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 550,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_N6rpfT4j",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 570,
+					"y": 715
+				}
+			},
+			{
+				"item": "viz_MnOur2er",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 560,
+					"y": 935
+				}
+			},
+			{
+				"item": "viz_AFljyaQN",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 380,
+					"y": 935
+				}
+			},
+			{
+				"item": "viz_pLpOrB93",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 560,
+					"y": 905
+				}
+			},
+			{
+				"item": "viz_Zp4QmBXY",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 380,
+					"y": 905
+				}
+			},
+			{
+				"item": "viz_OqolrMT8",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 850,
+					"y": 935
+				}
+			},
+			{
+				"item": "viz_DwrsdQfJ",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1060,
+					"y": 935
+				}
+			},
+			{
+				"item": "viz_V9n6Ykwp",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 850,
+					"y": 905
+				}
+			},
+			{
+				"item": "viz_8RpZBIKf",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1050,
+					"y": 905
+				}
+			},
+			{
+				"item": "viz_DCB2o8jp",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 840,
+					"y": 870
+				}
+			},
+			{
+				"item": "viz_jXJvEVEf",
+				"type": "block",
+				"position": {
+					"h": 90,
+					"w": 140,
+					"x": 1270,
+					"y": 910
+				}
+			},
+			{
+				"item": "viz_yrPOkCcV",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1280,
+					"y": 935
+				}
+			},
+			{
+				"item": "viz_LaPmVL4t",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1270,
+					"y": 905
+				}
+			},
+			{
+				"item": "viz_kwRX3CHs",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 850,
+					"y": 620
+				}
+			},
+			{
+				"item": "viz_IE93GKrC",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1060,
+					"y": 620
+				}
+			},
+			{
+				"item": "viz_2BFW7AxT",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1280,
+					"y": 620
+				}
+			},
+			{
+				"item": "viz_gRiYxCDg",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 840,
+					"y": 530
+				}
+			},
+			{
+				"item": "viz_3yZQd4J7",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 850,
+					"y": 585
+				}
+			},
+			{
+				"item": "viz_fAaYbVru",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1060,
+					"y": 585
+				}
+			},
+			{
+				"item": "viz_NtRf4WTu",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1280,
+					"y": 585
+				}
+			},
+			{
+				"item": "viz_5SBHAIeB",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 50,
+					"x": 370,
+					"y": 180
+				}
+			},
+			{
+				"item": "viz_ynMg2Daq",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 430,
+					"y": 170
+				}
+			},
+			{
+				"item": "viz_6ZmjUbGi",
+				"type": "block",
+				"position": {
+					"h": 40,
+					"w": 50,
+					"x": 840,
+					"y": 180
+				}
+			},
+			{
+				"item": "viz_CnF2jfXF",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 900,
+					"y": 170
+				}
+			},
+			{
+				"item": "viz_mvPmundP",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 850,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_QXguANws",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1060,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_ywis7OTn",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 1280,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_MZkbpi3w",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1280,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_zHjvDCAN",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 1060,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_lbDCYyg6",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 850,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_lz38RE9L",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 840,
+					"y": 240
+				}
+			},
+			{
+				"item": "viz_qTQv2GXR",
+				"type": "block",
+				"position": {
+					"h": 60,
+					"w": 120,
+					"x": 570,
+					"y": 320
+				}
+			},
+			{
+				"item": "viz_bc7a4kHd",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 130,
+					"x": 570,
+					"y": 290
+				}
+			},
+			{
+				"item": "viz_D5v6qwFu",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 385,
+					"y": 310
+				}
+			},
+			{
+				"item": "viz_azaf1YZQ",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 370,
+					"y": 240
+				}
+			},
+			{
+				"item": "viz_62riPxA4",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 110,
+					"x": 30,
+					"y": 310
+				}
+			},
+			{
+				"item": "viz_EAXpFXkn",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 280,
+					"x": 20,
+					"y": 240
+				}
+			},
+			{
+				"item": "viz_BzJIkZvv",
+				"type": "block",
+				"position": {
+					"h": 50,
+					"w": 80,
+					"x": 30,
+					"y": 380
+				}
+			}
+		],
+		"globalInputs": [
+			"globalTime"
+		]
+	},
+	"title": "Demo - ITSI Operational and Executive Visibility",
+	"description": "",
+	"visualizations": {
+		"viz_0gqnAGm9": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be34",
+				"strokeWidth": 0
+			}
+		},
+		"viz_105ZLlWS": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Web Platform",
+				"fontSize": 18
+			}
+		},
+		"viz_1ZF2UAxR": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "ds_UgFbT8qE_search1"
+			}
+		},
+		"viz_2BFW7AxT": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_2WiDN7Zw": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunk-enterprise-kvstore://5d9e6543ab0609172f01482b",
+				"showValue": false
+			}
+		},
+		"viz_3yZQd4J7": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Total VMs",
+				"fontSize": 15
+			}
+		},
+		"viz_4f5iKLwI": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_4kUIgUBQ": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#E33C16",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "ds_YnQNaYxY_ds_UZrvaQKi_search1"
+			}
+		},
+		"viz_5SBHAIeB": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunk-enterprise-kvstore://5d9cfe98ab0609172f01481a",
+				"showValue": false
+			}
+		},
+		"viz_62riPxA4": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_6ZmjUbGi": {
+			"type": "viz.singlevalueicon",
+			"options": {
+				"icon": "splunk-enterprise-kvstore://5d9cfea0ab0609172f01481b",
+				"showValue": false
+			}
+		},
+		"viz_7UHq3naH": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_8RpZBIKf": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Storage Free",
+				"fontSize": 15
+			}
+		},
+		"viz_8qwFiyx4": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Revenue",
+				"fontSize": 18
+			}
+		},
+		"viz_9PYXwb2q": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be44",
+				"strokeWidth": 0
+			}
+		},
+		"viz_9iDIaxh6": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "min",
+				"showSparkline": false,
+				"backgroundColor": "#33343B"
+			},
+			"dataSources": {
+				"primary": "MTTR"
+			}
+		},
+		"viz_9wLdHM0D": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_AFljyaQN": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_BzJIkZvv": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Future",
+				"fontSize": 15
+			}
+		},
+		"viz_CMOGRxSQ": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_CnF2jfXF": {
+			"type": "viz.text",
+			"options": {
+				"color": "#959599",
+				"content": "Cloud & Infrastructure"
+			}
+		},
+		"viz_D5v6qwFu": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "Checkouts"
+			}
+		},
+		"viz_DCB2o8jp": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Database",
+				"fontSize": 18
+			}
+		},
+		"viz_DwrsdQfJ": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search2"
+			}
+		},
+		"viz_EAXpFXkn": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Mobile Platform",
+				"fontSize": 18
+			}
+		},
+		"viz_GVC31xlB": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Average MTTR",
+				"fontSize": 18
+			}
+		},
+		"viz_HBM5PYT1": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_HSTQ7VVI": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_IE93GKrC": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_LYvVGipn": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#E33C16",
+				"strokeWidth": 0
+			}
+		},
+		"viz_LaPmVL4t": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "CPU Utilization",
+				"fontSize": 15
+			}
+		},
+		"viz_M6oNJ4Ev": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#E33C16",
+				"strokeWidth": 0
+			}
+		},
+		"viz_MZkbpi3w": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "TotalInstances"
+			}
+		},
+		"viz_MnOur2er": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_MrtaluGJ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Future",
+				"fontSize": 15
+			}
+		},
+		"viz_N6rpfT4j": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Requests",
+				"fontSize": 15
+			}
+		},
+		"viz_NtRf4WTu": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "VM CPU Util",
+				"fontSize": 15
+			}
+		},
+		"viz_OqolrMT8": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search2"
+			}
+		},
+		"viz_PJCNJ12d": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Response Time",
+				"fontSize": 15
+			}
+		},
+		"viz_QXguANws": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Instance Hours",
+				"fontSize": 15
+			}
+		},
+		"viz_SHRoiJG2": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_Teh4VKKy": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_Tjb7pOyk": {
+			"type": "viz.text",
+			"options": {
+				"color": "#959599",
+				"content": "Services"
+			}
+		},
+		"viz_TpR2wVcZ": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#E33C16",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "ds_6M3G0fB0_ds_YnQNaYxY_ds_UZrvaQKi_search1"
+			}
+		},
+		"viz_V9n6Ykwp": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Errors",
+				"fontSize": 15
+			}
+		},
+		"viz_WlMunGoW": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "ds_SNTqSzsf_Checkouts"
+			}
+		},
+		"viz_Xk8BrIRX": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Sev 1 Incidents",
+				"fontSize": 18
+			}
+		},
+		"viz_ZIRkZY6g": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_ZgGawUEN": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Database",
+				"fontSize": 18
+			}
+		},
+		"viz_Zp4QmBXY": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Unit Count",
+				"fontSize": 15
+			}
+		},
+		"viz_a38wEm3q": {
+			"type": "viz.singlevalue",
+			"options": {
+				"showSparkline": false,
+				"backgroundColor": "#33343B"
+			},
+			"dataSources": {
+				"primary": "sev1"
+			}
+		},
+		"viz_azaf1YZQ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Web App",
+				"fontSize": 18
+			}
+		},
+		"viz_bc7a4kHd": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "JavaScript Errors",
+				"fontSize": 15
+			}
+		},
+		"viz_c2nn5xUr": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Order Management",
+				"fontSize": 18
+			}
+		},
+		"viz_dBGiERZi": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_fAaYbVru": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "VM Memory Used",
+				"fontSize": 15
+			}
+		},
+		"viz_gRiYxCDg": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Virtualization",
+				"fontSize": 18
+			}
+		},
+		"viz_jXJvEVEf": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_kJQUxnuf": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be34",
+				"strokeWidth": 0
+			}
+		},
+		"viz_kdGnGZnQ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Label Creation",
+				"fontSize": 18
+			}
+		},
+		"viz_ku3I0rLV": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "min",
+				"backgroundColor": "#f8be34"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_kwRX3CHs": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_lbDCYyg6": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "$",
+				"unitPosition": "before",
+				"backgroundColor": "#f8be34"
+			},
+			"dataSources": {
+				"primary": "EstimatedCost"
+			}
+		},
+		"viz_lpFewpFs": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#f8be44",
+				"trendDisplayMode": "absolute",
+				"sparklinePosition": "below",
+				"showTrendIndicator": true
+			},
+			"dataSources": {
+				"primary": "ds_LJ7clkru_ds_UgFbT8qE_search1"
+			}
+		},
+		"viz_lz38RE9L": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Cloud",
+				"fontSize": 18
+			}
+		},
+		"viz_mvPmundP": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Estimated Cost",
+				"fontSize": 15
+			}
+		},
+		"viz_oUHxbtvB": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "ms",
+				"backgroundColor": "#f8be44"
+			},
+			"dataSources": {
+				"primary": "ResponseTime"
+			}
+		},
+		"viz_pLpOrB93": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Carts Abandoned",
+				"fontSize": 15
+			}
+		},
+		"viz_poJwaOgW": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "rpm",
+				"backgroundColor": "#53a051",
+				"numberPrecision": 1
+			},
+			"dataSources": {
+				"primary": "javascript"
+			}
+		},
+		"viz_qCEJ6zjX": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be34",
+				"strokeWidth": 0
+			}
+		},
+		"viz_qTQv2GXR": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "min",
+				"backgroundColor": "#f8be44"
+			},
+			"dataSources": {
+				"primary": "javascript"
+			}
+		},
+		"viz_t9V6t1K8": {
+			"type": "viz.singlevalue",
+			"options": {
+				"unit": "$",
+				"unitPosition": "before",
+				"showSparkline": false,
+				"backgroundColor": "#33343B"
+			},
+			"dataSources": {
+				"primary": "Revenue"
+			}
+		},
+		"viz_uql35a17": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be34",
+				"strokeWidth": 0
+			}
+		},
+		"viz_urcgCEvT": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_v1JBmHSX": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Mobile App",
+				"fontSize": 18
+			}
+		},
+		"viz_w8E6rylt": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_x5uaIdzL": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#53a051",
+				"strokeWidth": 0
+			}
+		},
+		"viz_xr7flyYl": {
+			"type": "viz.rectangle",
+			"options": {
+				"rx": 10,
+				"ry": 10,
+				"fill": "#f8be34",
+				"strokeWidth": 0
+			}
+		},
+		"viz_ynMg2Daq": {
+			"type": "viz.text",
+			"options": {
+				"color": "#959599",
+				"content": "Applications"
+			}
+		},
+		"viz_yrPOkCcV": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#53a051"
+			},
+			"dataSources": {
+				"primary": "search1"
+			}
+		},
+		"viz_ytns7TFJ": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "JavaScript Errors",
+				"fontSize": 15
+			}
+		},
+		"viz_ywis7OTn": {
+			"type": "viz.text",
+			"options": {
+				"color": "#ffffff",
+				"content": "Total Instances",
+				"fontSize": 15
+			}
+		},
+		"viz_zHjvDCAN": {
+			"type": "viz.singlevalue",
+			"options": {
+				"backgroundColor": "#f8be44"
+			},
+			"dataSources": {
+				"primary": "InstanceHours"
+			}
+		}
+	}
+}

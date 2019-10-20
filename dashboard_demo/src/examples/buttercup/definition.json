@@ -650,7 +650,7 @@
 			"backgroundImage": {
 				"x": 0,
 				"y": 0,
-				"src": "https://raw.githubusercontent.com/splunk/dashboard-conf19-examples/master/resources/appserver/static/buttercup_background.png",
+				"src": "https://bgame.afishkin.now.sh/ButtercupGames.svg",
 				"sizeType": "contain"
 			}
 		},
@@ -902,6 +902,9 @@
 		},
 		"leader_board": {
 			"type": "viz.table",
+			"options": {
+				"backgroundColor": "transparent"
+			},
 			"dataSources": {
 				"primary": "leader_search"
 			}
@@ -976,13 +979,8 @@
 			}
 		},
 		"games_per_device": {
-			"type": "viz.line",
-			"options": {
-				"lineWidth": 5,
-				"legend.placement": "none",
-				"axisTitleX.visibility": "collapsed",
-				"axisTitleY.visibility": "collapsed"
-			},
+			"type": "viz.column",
+			"options": {},
 			"dataSources": {
 				"primary": "games_per_device"
 			}

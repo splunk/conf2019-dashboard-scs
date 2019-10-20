@@ -1,0 +1,67 @@
+{
+    "title": "Chart - Area Default",
+    "inputs": {},
+    "layout": {
+        "type": "absolute",
+        "options": { "width": 1280, "height": 720 },
+        "structure": [
+            {
+                "item": "viz_TLlmPxp4",
+                "type": "block",
+                "position": { "h": 490, "w": 1280, "x": 0, "y": 0 }
+            },
+            {
+                "item": "viz_PlN4UnyP",
+                "type": "block",
+                "position": { "h": 140, "w": 1280, "x": 0, "y": 490 }
+            },
+            {
+                "item": "viz_S9W4uns3",
+                "type": "block",
+                "position": { "h": 80, "w": 410, "x": 20, "y": 530 }
+            },
+            {
+                "item": "viz_JO7fmFG4",
+                "type": "block",
+                "position": { "h": 50, "w": 300, "x": 10, "y": 490 }
+            }
+        ]
+    },
+    "dataSources": {
+        "ds_SM3zw2qr": {
+            "name": "Search_1",
+            "type": "ds.search",
+            "options": {
+                "query": "from index:sample_aws_s3_elb_logs | timechart count()",
+                "queryParameters": {
+                    "latest": "2019-10-08T05:00:00.000",
+                    "earliest": "2019-10-07T11:00:00.000"
+                }
+            }
+        }
+    },
+    "description": "",
+    "visualizations": {
+        "viz_JO7fmFG4": {
+            "type": "viz.text",
+            "options": { "content": "Search", "fontSize": 15 }
+        },
+        "viz_PlN4UnyP": {
+            "type": "viz.rectangle",
+            "options": { "fill": "#212529", "stroke": "#212529" }
+        },
+        "viz_S9W4uns3": {
+            "type": "viz.text",
+            "options": {
+                "color": "#53a051",
+                "content": "from index:sample_aws_s3_elb_logs \n| timechart count() ",
+                "fontSize": 15
+            }
+        },
+        "viz_TLlmPxp4": {
+            "type": "viz.area",
+            "options": { "axisTitleX.text": "Time" },
+            "dataSources": { "primary": "ds_SM3zw2qr" }
+        }
+    }
+}
