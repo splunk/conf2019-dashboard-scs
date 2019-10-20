@@ -1,0 +1,206 @@
+{
+    "title": "Chart - US Choropleth",
+    "inputs": {},
+    "layout": {
+        "type": "absolute",
+        "options": {
+            "width": 1200,
+            "height": 1100,
+            "display": "auto-scale",
+            "backgroundColor": "#24272C"
+        },
+        "structure": [
+            {
+                "item": "viz_RHJfBeaE",
+                "type": "block",
+                "position": { "h": 860, "w": 1210, "x": 0, "y": 0 }
+            }
+        ],
+        "globalInputs": []
+    },
+    "dataSources": {
+        "search1": {
+            "name": "search1",
+            "type": "ds.test",
+            "options": {
+                "data": {
+                    "fields": [{ "name": "us_state" }, { "name": "values" }],
+                    "columns": [
+                        [
+                            "US-AL",
+                            "US-AR",
+                            "US-AZ",
+                            "US-CA",
+                            "US-CO",
+                            "US-CT",
+                            "US-FL",
+                            "US-GA",
+                            "US-IA",
+                            "US-ID",
+                            "US-IL",
+                            "US-IN",
+                            "US-KS",
+                            "US-KY",
+                            "US-LA",
+                            "US-MA",
+                            "US-MD",
+                            "US-MI",
+                            "US-MN",
+                            "US-MO",
+                            "US-MT",
+                            "US-NC",
+                            "US-NE",
+                            "US-NJ",
+                            "US-NM",
+                            "US-NV",
+                            "US-NY",
+                            "US-OH",
+                            "US-OK",
+                            "US-OR",
+                            "US-PA",
+                            "US-RI",
+                            "US-SC",
+                            "US-SD",
+                            "US-TN",
+                            "US-TX",
+                            "US-UT",
+                            "US-VA",
+                            "US-WA",
+                            "US-WI"
+                        ],
+                        [
+                            "17",
+                            "3",
+                            "65",
+                            "385",
+                            "69",
+                            "9",
+                            "142",
+                            "23",
+                            "11",
+                            "6",
+                            "28",
+                            "43",
+                            "12",
+                            "33",
+                            "12",
+                            "8",
+                            "9",
+                            "23",
+                            "6",
+                            "14",
+                            "10",
+                            "70",
+                            "8",
+                            "3",
+                            "23",
+                            "28",
+                            "62",
+                            "58",
+                            "17",
+                            "28",
+                            "43",
+                            "6",
+                            "8",
+                            "6",
+                            "33",
+                            "225",
+                            "9",
+                            "49",
+                            "48",
+                            "29"
+                        ]
+                    ]
+                },
+                "meta": {}
+            }
+        }
+    },
+    "description": "",
+    "visualizations": {
+        "viz_RHJfBeaE": {
+            "type": "viz.geojson.us",
+            "options": {
+                "name": "USA",
+                "source": "geo://default/us",
+                "selector": ".feature",
+                "fillColor": "#EAEFF2",
+                "projection": "mercator",
+                "strokeColor": "#EAEFF2",
+                "sourceBounds": {
+                    "lat": { "max": 50, "min": 24 },
+                    "long": { "max": -60, "min": -130 }
+                },
+                "logicalBounds": {
+                    "x": { "max": 800, "min": 0 },
+                    "y": { "max": 600, "min": 0 }
+                },
+                "geoFeatureGroups": [
+                    {
+                        "name": "lower48",
+                        "sourceBounds": {
+                            "lat": { "max": 50, "min": 24 },
+                            "long": { "max": -60, "min": -130 }
+                        },
+                        "featureMatcher": {
+                            "regex": "^(?!(AK|HI))",
+                            "property": "postal"
+                        }
+                    },
+                    {
+                        "name": "Alaska",
+                        "sourceBounds": {
+                            "lat": { "max": 72, "min": 45 },
+                            "long": { "max": -120, "min": -180 }
+                        },
+                        "logicalBounds": {
+                            "x": { "max": 200, "min": 100 },
+                            "y": { "max": 425, "min": 325 }
+                        },
+                        "featureMatcher": {
+                            "regex": "AK",
+                            "property": "postal"
+                        }
+                    },
+                    {
+                        "name": "Hawaii",
+                        "sourceBounds": {
+                            "lat": { "max": 22.461292, "min": 18.665677 },
+                            "long": { "max": -154.242648, "min": -160.921571 }
+                        },
+                        "logicalBounds": {
+                            "x": { "max": 350, "min": 250 },
+                            "y": { "max": 475, "min": 375 }
+                        },
+                        "featureMatcher": {
+                            "regex": "HI",
+                            "property": "postal"
+                        }
+                    }
+                ],
+                "strokeHighlightColor": "#000000"
+            },
+            "encoding": {
+                "fill": {
+                    "field": "primary[1]",
+                    "format": {
+                        "type": "gradient",
+                        "ranges": ["5", "30", "45", "55", "150", "220", "300"],
+                        "values": [
+                            "#b3fff0",
+                            "#99ffec",
+                            "#87f5df",
+                            "#7af5de",
+                            "#60ebd1",
+                            "#4be3c5",
+                            "#09D0AC"
+                        ]
+                    }
+                },
+                "value": "primary[1]",
+                "featureId": "primary[0]"
+            },
+            "dataSources": { "primary": "search1" }
+        }
+    }
+}
