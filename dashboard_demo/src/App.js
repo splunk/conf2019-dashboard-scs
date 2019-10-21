@@ -24,7 +24,7 @@ import {
     ErrorMsg,
     GlobalStyle,
     List,
-    ListItem
+    ListItem,
 } from './styles';
 
 class App extends Component {
@@ -34,7 +34,7 @@ class App extends Component {
         loggedIn: false,
         pipelineActivated: false,
         dataIngested: false,
-        error: null
+        error: null,
     };
 
     componentDidMount() {
@@ -49,13 +49,13 @@ class App extends Component {
             // authClient will redirect to login page if user is not authenticated.
             const authenticated = await authClient.checkAuthentication();
             this.setState({
-                loggedIn: authenticated
+                loggedIn: authenticated,
             });
         } catch (ex) {
             console.log('exception:', ex);
             this.setState({
                 loggedIn: false,
-                error: ex.errorCode
+                error: ex.errorCode,
             });
         }
     };
@@ -79,6 +79,7 @@ class App extends Component {
                                 <a
                                     href="https://si.scp.splunk.com"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     https://si.scp.splunk.com
                                 </a>{' '}
@@ -90,6 +91,7 @@ class App extends Component {
                                 <a
                                     href="https://sdc.splunkbeta.com/docs/apps/"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     [more info]
                                 </a>
@@ -100,6 +102,7 @@ class App extends Component {
                                 <a
                                     href="https://sdc.splunkbeta.com/docs/apps/subscribe"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     [more info]
                                 </a>

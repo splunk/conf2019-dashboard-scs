@@ -3,14 +3,12 @@ import ControlGroup from '@splunk/react-ui/ControlGroup';
 import styled from 'styled-components';
 import Select from '@splunk/react-ui/Select';
 import CustomDataSource from './examples/custom_data_source';
-import AbsoluteDashboard from './examples/absolute_dashboard';
 import BostonMarathon from './examples/boston_marathon';
 import Buttercup from './examples/buttercup';
 import DataCenter from './examples/data_center';
 import Donut from './examples/donut';
 import DynamicThemeing from './examples/dynamic_theming';
 import GlassTable from './examples/glasstable';
-import GridDashboard from './examples/grid_dashboard';
 import Radar from './examples/radar';
 import SFOAirport from './examples/sfo_airport';
 import Visualzations from './examples/visualizations';
@@ -40,7 +38,6 @@ const Container = styled.div`
 `;
 
 const examples = {
-    // AbsoluteDashboard,
     AreaDefault,
     AreaNull,
     AreaStack,
@@ -52,17 +49,16 @@ const examples = {
     CheckoutFunnel,
     ColumnDefault,
     ColumnStack,
-    // CustomDataSource,
+    CustomDataSource, // Yuxiangs Demo
     DataCenter,
     DataCenterOverview,
-    // Donut,
-    // DynamicThemeing,
+    Donut, // Peter Demo
+    DynamicThemeing, // Michael Demo
     ElbLogsOverview,
     ElectricityMonitoring,
     EmergencyCare,
     ExecVisibility,
     GlassTable,
-    // GridDashboard,
     LineDefault,
     LineNull,
     PieDefault,
@@ -81,11 +77,7 @@ const Dashboard = () => {
         setExampleName,
     ]);
 
-    console.log('exampleName:', exampleName);
-
     const Example = examples[exampleName];
-
-    console.log('Example:', Example);
 
     return (
         <Container>

@@ -7,6 +7,7 @@
     "@splunk/dashboard-core": "^8.0.0",
     "@splunk/dashboard-presets": "^8.0.0",
     "@splunk/react-ui": "^2.13.0",
+    "@splunk/themes": "^0.4.1",
     "@splunkdev/cloud-auth": "^1.0.0",
     "chart.js": "^2.8.0",
     "d3": "^5.12.0",
