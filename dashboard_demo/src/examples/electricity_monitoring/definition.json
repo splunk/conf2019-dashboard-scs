@@ -37,7 +37,9 @@
     "visualizations": {
         "viz_M1jUiwoN": {
             "type": "viz.singlevalueradial",
-            "options": {},
+            "options": {
+				"backgroundColor": "#3c444d"
+			},
             "dataSources": { "primary": "ds_7Vnkb5K4" }
         },
         "viz_WZmRrziT": {
