@@ -23,8 +23,6 @@ import ElbLogsOverview from './examples/elb_logs_overview';
 import LineNull from './examples/line_null';
 import USChoropleth from './examples/us_choropleth';
 import EmergencyCare from './examples/emergency_care';
-import CheckoutFunnel from './examples/checkout_funnel';
-import DataCenterOverview from './examples/data_center_overview';
 import ExecVisibility from './examples/exec_visibility';
 import TransactionFlow from './examples/transaction_flow';
 import ElectricityMonitoring from './examples/electricity_monitoring';
@@ -46,12 +44,10 @@ const examples = {
     BostonMarathon,
     BubbleDefault,
     Buttercup,
-    CheckoutFunnel,
     ColumnDefault,
     ColumnStack,
     CustomDataSource, // Yuxiangs Demo
     DataCenter,
-    DataCenterOverview,
     Donut, // Peter Demo
     DynamicThemeing, // Michael Demo
     ElbLogsOverview,

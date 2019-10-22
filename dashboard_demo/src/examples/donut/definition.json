@@ -5,7 +5,10 @@
             "options": {
                 "data": {
                     "fields": [{ "name": "games_range" }, { "name": "users" }],
-                    "columns": [["1", "2", "3 - 5", " 6 - 10", "11+"], [1234, 2678, 5246, 4157, 2234]]
+                    "columns": [
+                        ["1", "2", "3 - 5", " 6 - 10", "11+"],
+                        [1234, 2678, 5246, 4157, 2234]
+                    ]
                 }
             }
         }
@@ -15,15 +18,32 @@
         "type": "absolute",
         "options": {},
         "structure": [
-            { "item": "viz_text", "type": "block", "position": { "h": 340, "w": 370, "x": 50, "y": 30 } },
-            { "item": "viz_donut", "type": "block", "position": { "h": 250, "w": 600, "x": 430, "y": 30 } }
+            {
+                "item": "viz_text",
+                "type": "block",
+                "position": { "h": 340, "w": 370, "x": 50, "y": 30 }
+            },
+            {
+                "item": "viz_donut",
+                "type": "block",
+                "position": { "h": 500, "w": 600, "x": 430, "y": 30 }
+            }
         ]
     },
     "description": "",
     "visualizations": {
         "viz_text": {
             "type": "viz.text",
-            "options": { "content": "D3 Donut", "fontSize": 40, "backgroundColor": "transparent" }
+            "options": {
+                "content": "D3 Donut",
+                "fontSize": 40,
+                "backgroundColor": "transparenAt"
+            }
         },
-        "viz_donut": { "type": "viz.donut", "options": {}, "dataSources": { "primary": "ds_1" } } }
+        "viz_donut": {
+            "type": "viz.donut",
+            "options": {},
+            "dataSources": { "primary": "ds_1" }
+        }
+    }
 }

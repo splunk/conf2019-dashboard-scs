@@ -650,9 +650,11 @@
 			"backgroundImage": {
 				"x": 0,
 				"y": 0,
-				"src": "https://bgame.afishkin.now.sh/ButtercupGames.svg",
+				"src": "https://raw.githubusercontent.com/splunk/dashboard-conf19-examples/master/resources/appserver/static/buttercup_background.png",
 				"sizeType": "contain"
-			}
+			},
+			"canvasBackgroundColor": "transparent",
+			"layoutItemBackgroundColor": "transparent"
 		},
 		"structure": [
 			{
@@ -660,8 +662,8 @@
 				"position": {
 					"h": 70,
 					"w": 80,
-					"x": 110,
-					"y": 110
+					"x": 113,
+					"y": 113
 				}
 			},
 			{
@@ -669,8 +671,8 @@
 				"position": {
 					"h": 70,
 					"w": 80,
-					"x": 110,
-					"y": 430
+					"x": 113,
+					"y": 433
 				}
 			},
 			{
@@ -696,17 +698,17 @@
 				"position": {
 					"h": 140,
 					"w": 390,
-					"x": 1100,
-					"y": 140
+					"x": 1110,
+					"y": 160
 				}
 			},
 			{
 				"item": "punch_card",
 				"position": {
-					"h": 160,
-					"w": 410,
-					"x": 1100,
-					"y": 290
+					"h": 145,
+					"w": 400,
+					"x": 1105,
+					"y": 325
 				}
 			},
 			{
@@ -731,8 +733,8 @@
 				"item": "last_hour_games",
 				"position": {
 					"h": 140,
-					"w": 410,
-					"x": 650,
+					"w": 350,
+					"x": 680,
 					"y": 460
 				}
 			},
@@ -757,19 +759,19 @@
 			{
 				"item": "games_per_day",
 				"position": {
-					"h": 140,
+					"h": 90,
 					"w": 390,
 					"x": 1110,
-					"y": 460
+					"y": 480
 				}
 			},
 			{
 				"item": "games_per_device",
 				"position": {
-					"h": 120,
+					"h": 90,
 					"w": 400,
 					"x": 1100,
-					"y": 10
+					"y": 40
 				}
 			},
 			{
@@ -792,49 +794,21 @@
 			}
 		]
 	},
-	"title": "Demo - Petey's Buttercup Games",
+	"title": "Petey's Buttercup Games",
 	"description": "",
 	"visualizations": {
 		"top_score": {
 			"type": "viz.singlevalue",
-			"options": {},
-			"encoding": {
-				"fill": {
-					"field": "primary[0]",
-					"format": {
-						"type": "rangevalue",
-						"ranges": [
-							{
-								"from": 100,
-								"value": "#cb3b43"
-							},
-							{
-								"to": 100,
-								"from": 70,
-								"value": "#ff7152"
-							},
-							{
-								"to": 70,
-								"from": 50,
-								"value": "#fc9850"
-							},
-							{
-								"to": 50,
-								"from": 30,
-								"value": "#f4df7a"
-							},
-							{
-								"to": 30,
-								"from": 10,
-								"value": "#4beba8"
-							},
-							{
-								"to": 10,
-								"value": "#5fbcff"
-							}
-						]
-					}
-				}
+			"options": {
+				"useColors": true,
+				"rangeColors": [
+					"#fff",
+					"#fff"
+				],
+				"rangeValues": [
+					0,
+					10000000000
+				]
 			},
 			"dataSources": {
 				"primary": "top_score_search"
@@ -842,51 +816,25 @@
 		},
 		"punch_card": {
 			"type": "viz.table",
-			"options": {},
+			"options": {
+				"backgroundColor": "transparent"
+			},
 			"dataSources": {
 				"primary": "game_stats"
 			}
 		},
 		"total_games": {
 			"type": "viz.singlevalue",
-			"options": {},
-			"encoding": {
-				"fill": {
-					"field": "primary[0]",
-					"format": {
-						"type": "rangevalue",
-						"ranges": [
-							{
-								"from": 100,
-								"value": "#cb3b43"
-							},
-							{
-								"to": 100,
-								"from": 70,
-								"value": "#ff7152"
-							},
-							{
-								"to": 70,
-								"from": 50,
-								"value": "#fc9850"
-							},
-							{
-								"to": 50,
-								"from": 30,
-								"value": "#f4df7a"
-							},
-							{
-								"to": 30,
-								"from": 10,
-								"value": "#4beba8"
-							},
-							{
-								"to": 10,
-								"value": "#5fbcff"
-							}
-						]
-					}
-				}
+			"options": {
+				"useColors": true,
+				"rangeColors": [
+					"#fff",
+					"#fff"
+				],
+				"rangeValues": [
+					0,
+					100000
+				]
 			},
 			"dataSources": {
 				"primary": "total_game_search"
@@ -894,8 +842,17 @@
 		},
 		"total_users": {
 			"type": "viz.singlevalue",
-			"options": {},
-			"encoding": {},
+			"options": {
+				"useColors": true,
+				"rangeColors": [
+					"#fff",
+					"#fff"
+				],
+				"rangeValues": [
+					0,
+					1000000000
+				]
+			},
 			"dataSources": {
 				"primary": "total_user_search"
 			}
@@ -911,7 +868,10 @@
 		},
 		"games_per_day": {
 			"type": "viz.line",
-			"options": {},
+			"options": {
+				"backgroundColor": "transparent",
+				"legend.placement": "none"
+			},
 			"dataSources": {
 				"primary": "games_per_day"
 			}
@@ -920,7 +880,7 @@
 			"type": "viz.column",
 			"options": {
 				"fontColor": "#ffffff",
-				"seriesColors": "[#ffffff]",
+				"seriesColors": "['#ffffff']",
 				"backgroundColor": "transparent",
 				"legend.placement": "none",
 				"axisLabelsY.majorUnit": 1,
@@ -932,55 +892,36 @@
 			}
 		},
 		"last_hour_games": {
-			"type": "viz.singlevalueradial",
+			"type": "viz.singlevalue",
 			"options": {
-				"underLabel": "Compared to 1 hour before"
-			},
-			"encoding": {
-				"fill": {
-					"field": "primary[0]",
-					"format": {
-						"type": "rangevalue",
-						"ranges": [
-							{
-								"from": 100,
-								"value": "#cb3b43"
-							},
-							{
-								"to": 100,
-								"from": 70,
-								"value": "#ff7152"
-							},
-							{
-								"to": 70,
-								"from": 50,
-								"value": "#fc9850"
-							},
-							{
-								"to": 50,
-								"from": 30,
-								"value": "#f4df7a"
-							},
-							{
-								"to": 30,
-								"from": 10,
-								"value": "#4beba8"
-							},
-							{
-								"to": 10,
-								"value": "#5fbcff"
-							}
-						]
-					}
-				}
+				"layout": "radial",
+				"useColors": true,
+				"underLabel": "Compared to 1 hour before",
+				"rangeColors": [
+					"#fff",
+					"#fff"
+				],
+				"rangeValues": [
+					0,
+					100
+				],
+				"backgroundColor": "transparent"
 			},
 			"dataSources": {
 				"primary": "last_hour_games"
 			}
 		},
 		"games_per_device": {
-			"type": "viz.column",
-			"options": {},
+			"type": "viz.line",
+			"options": {
+				"fontColor": "#ffffff",
+				"lineWidth": 5,
+				"seriesColors": "['#ffffff']",
+				"backgroundColor": "transparent",
+				"legend.placement": "none",
+				"axisTitleX.visibility": "collapsed",
+				"axisTitleY.visibility": "collapsed"
+			},
 			"dataSources": {
 				"primary": "games_per_device"
 			}
@@ -1006,7 +947,9 @@
 			"options": {
 				"backgroundColor": "transparent"
 			},
-			"encoding": {},
+			"encoding": {
+				"trend": "primary[0]"
+			},
 			"dataSources": {
 				"primary": "yoy_player_growth"
 			}
@@ -1015,7 +958,7 @@
 			"type": "viz.column",
 			"options": {
 				"fontColor": "#ffffff",
-				"seriesColors": "[#ffffff]",
+				"seriesColors": "['#ffffff']",
 				"backgroundColor": "transparent",
 				"legend.placement": "none",
 				"axisTitleX.visibility": "collapsed",
@@ -1030,7 +973,9 @@
 			"options": {
 				"backgroundColor": "transparent"
 			},
-			"encoding": {},
+			"encoding": {
+				"trend": "primary[0]"
+			},
 			"dataSources": {
 				"primary": "yoy_engagement_growth"
 			}
@@ -1038,47 +983,18 @@
 		"avg_games_per_user_search": {
 			"type": "viz.singlevalue",
 			"options": {
+				"useColors": true,
+				"rangeColors": [
+					"#fff",
+					"#fff"
+				],
+				"rangeValues": [
+					0,
+					1000000000
+				],
 				"showTrendIndicator": false,
 				"sparklineFillColor": "#ffffff",
 				"sparklineStrokeColor": "#ffffff"
-			},
-			"encoding": {
-				"fill": {
-					"field": "primary[0]",
-					"format": {
-						"type": "rangevalue",
-						"ranges": [
-							{
-								"from": 100,
-								"value": "#cb3b43"
-							},
-							{
-								"to": 100,
-								"from": 70,
-								"value": "#ff7152"
-							},
-							{
-								"to": 70,
-								"from": 50,
-								"value": "#fc9850"
-							},
-							{
-								"to": 50,
-								"from": 30,
-								"value": "#f4df7a"
-							},
-							{
-								"to": 30,
-								"from": 10,
-								"value": "#4beba8"
-							},
-							{
-								"to": 10,
-								"value": "#5fbcff"
-							}
-						]
-					}
-				}
 			},
 			"dataSources": {
 				"primary": "avg_games_per_user_search"

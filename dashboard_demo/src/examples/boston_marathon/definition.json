@@ -370,7 +370,8 @@
         "type": "absolute",
         "options": {
             "width": 1300,
-            "height": 750
+            "height": 750,
+            "display": "auto-scale"
         },
         "structure": [
             {

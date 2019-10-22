@@ -1,26 +1,36 @@
 {
     "dataSources": {
-        "total_count_search": {
-            "type": "ds.search",
-            "options": {
-                "query": "index=_internal | stats count",
-                "queryParameters": { "earliest": "-15m@m", "latest": "now" }
-            }
+        "todo": {
+            "type": "todo"
         }
     },
     "layout": {
-        "type": "grid",
-        "options": { "padding": 20, "margin": 10, "backgroundColor": "#eff0f1" },
-        "structure": [{ "item": "sv_total_event", "position": { "x": 1, "y": 1, "w": 12, "h": 1 } }]
+        "type": "absolute",
+        "options": {
+            "display": "auto-scale",
+            "width": 1920,
+            "height": 1080
+        },
+        "structure": [
+            {
+                "item": "myvisualization",
+                "position": {
+                    "x": 500,
+                    "y": 1,
+                    "w": 600,
+                    "h": 600
+                }
+            }
+        ]
     },
     "title": "Simple Dashboard",
     "description": "",
     "visualizations": {
-        "sv_total_event": {
-            "title": "index=_internal event count of last 15 minutes",
-            "type": "viz.singlevalue",
-            "options": { "backgroundColor": "#ffffff" },
-            "dataSources": { "primary": "total_count_search" }
+        "myvisualization": {
+            "type": "viz.table",
+            "dataSources": {
+                "primary": "todo"
+            }
         }
     }
 }
