@@ -3,12 +3,12 @@
     "inputs": {},
     "layout": {
         "type": "absolute",
-        "options": { "width": 1290, "height": 720 },
+        "options": { "width": 1280, "height": 720 },
         "structure": [
             {
                 "item": "viz_PlN4UnyP",
                 "type": "block",
-                "position": { "h": 130, "w": 510, "x": 0, "y": 470 }
+                "position": { "h": 130, "w": 1280, "x": 0, "y": 470 }
             },
             {
                 "item": "viz_S9W4uns3",
@@ -34,11 +34,6 @@
                 "item": "viz_DsCPKhQQ",
                 "type": "block",
                 "position": { "h": 460, "w": 430, "x": 860, "y": 0 }
-            },
-            {
-                "item": "viz_CosXKARG",
-                "type": "block",
-                "position": { "h": 90, "w": 470, "x": 30, "y": 500 }
             }
         ]
     },

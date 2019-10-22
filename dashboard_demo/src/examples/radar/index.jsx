@@ -20,7 +20,7 @@ const CustomPreset = {
     },
 };
 
-const themeKey = 'enterpriseDark';
+const themeKey = 'scp';
 const theme = {
     ...presetThemes[themeKey],
     ...dashboardCoreThemes[themeKey],

@@ -17,10 +17,11 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  body {
+  html, body {
       margin: 0;
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: x-large;
+      font-family: ${prop => prop.theme.fontFamily};
+      background-color: ${prop => prop.theme.backgroundColor};
+      color: ${prop => prop.theme.textColor};
   }
 `;
 
@@ -47,7 +48,6 @@ export const ErrorCircle = styled.span`
     vertical-align: middle;
     background-color: rgb(200, 100, 80);
     font-size: 1.5em;
-    color: black;
     margin-right: 10px;
 `;
 

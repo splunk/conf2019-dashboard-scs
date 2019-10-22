@@ -11,7 +11,7 @@ import definition from './definition.json';
 import authClient from '../../auth';
 import { tenantId } from '../../config/config.json';
 
-const themeKey = 'enterpriseDark';
+const themeKey = 'scp';
 const theme = {
     ...presetThemes[themeKey],
     ...dashboardCoreThemes[themeKey],

@@ -3,12 +3,12 @@
     "inputs": {},
     "layout": {
         "type": "absolute",
-        "options": { "width": 1290, "height": 720 },
+        "options": { "width": 1280, "height": 720 },
         "structure": [
             {
                 "item": "viz_PlN4UnyP",
                 "type": "block",
-                "position": { "h": 130, "w": 440, "x": 0, "y": 490 }
+                "position": { "h": 130, "w": 1280, "x": 0, "y": 490 }
             },
             {
                 "item": "viz_S9W4uns3",
@@ -34,11 +34,6 @@
                 "item": "viz_DsCPKhQQ",
                 "type": "block",
                 "position": { "h": 460, "w": 430, "x": 860, "y": 0 }
-            },
-            {
-                "item": "viz_BWmN9dMb",
-                "type": "block",
-                "position": { "h": 90, "w": 410, "x": 20, "y": 520 }
             }
         ]
     },
@@ -57,15 +52,6 @@
     },
     "description": "",
     "visualizations": {
-        "viz_BWmN9dMb": {
-            "type": "viz.rectangle",
-            "options": {
-                "rx": 2,
-                "ry": 2,
-                "fill": "transparent",
-                "stroke": "#43454A"
-            }
-        },
         "viz_DsCPKhQQ": {
             "type": "viz.column",
             "title": "Stacked 100%",
