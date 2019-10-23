@@ -7,9 +7,15 @@ import DashboardCore, {
 import CloudViewOnlyPreset, {
     themes as presetThemes,
 } from '@splunk/dashboard-presets/CloudViewOnlyPreset';
+import { DashboardContextProvider } from '@splunk/dashboard-context';
+import GeoRegistry from '@splunk/dashboard-context/GeoRegistry';
+import GeoJsonProvider from '@splunk/dashboard-context/GeoJsonProvider';
 import definition from './definition.json';
 import authClient from '../../auth';
 import { tenantId } from '../../config/config.json';
+
+const geoRegistry = new GeoRegistry.create();
+geoRegistry.addDefaultProvider(new GeoJsonProvider());
 
 const themeKey = 'scp';
 const theme = {
@@ -20,15 +26,17 @@ const theme = {
 // use DashboardCore to render a simple dashboard
 export default () => (
     <ThemeProvider theme={theme}>
-        <DashboardCore
-            width="100%"
-            height="calc(100vh - 78px)"
-            definition={definition}
-            preset={CloudViewOnlyPreset}
-            dataSourceContext={{
-                tenantId,
-                authClient,
-            }}
-        />
+        <DashboardContextProvider geoRegistry={geoRegistry}>
+            <DashboardCore
+                width="100%"
+                height="calc(100vh - 78px)"
+                definition={definition}
+                preset={CloudViewOnlyPreset}
+                dataSourceContext={{
+                    tenantId,
+                    authClient,
+                }}
+            />
+        </DashboardContextProvider>
     </ThemeProvider>
 );
